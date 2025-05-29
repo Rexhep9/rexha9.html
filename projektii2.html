@@ -1,0 +1,178 @@
+<title>Faqja e Rexhep Reka</title> <style> body { margin: 0; font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #fdfbfb, #ebedee); color: #2c3e50; }
+    header {
+        background: linear-gradient(to right, #1e3c72, #2a5298);
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+        border-bottom: 8px double #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 3em;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 1.5em;
+        font-style: italic;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .box {
+        background-color: #ffffff;
+        padding: 30px 40px;
+        border: 3px dashed #8e44ad;
+        border-radius: 15px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease;
+    }
+
+    .box:hover {
+        transform: scale(1.02);
+    }
+
+    .box:nth-child(1) {
+        border-color: #2980b9;
+        background: #eaf6ff;
+    }
+
+    .box:nth-child(2) {
+        border-style: double;
+        border-color: #27ae60;
+        background: #e9f9ee;
+    }
+
+    .box:nth-child(3) {
+        border-style: dotted;
+        border-color: #d35400;
+        background: #fff5e6;
+    }
+
+    .box:nth-child(4) {
+        border-style: solid;
+        border-color: #c0392b;
+        background: #ffeaea;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    label {
+        font-weight: bold;
+        color: #34495e;
+    }
+
+    .forma button {
+            background-color: green;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            margin-top: 20px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer; 
+            transition: background 0.5s ease;
+        }
+
+    input[type="email"],
+    input[type="password"] {
+        padding: 12px;
+        border: 2px solid #bdc3c7;
+        border-radius: 8px;
+        font-size: 1em;
+        background-color: #f7f9fa;
+    }
+
+    .center-list ul {
+        list-style: square;
+        text-align: center;
+        padding-left: 0;
+        color: #2c3e50;
+        font-size: 1.1em;
+    }
+
+    .center-list li {
+        margin: 10px 0;
+    }
+
+    .box-3, .box-4 {
+        line-height: 1.8;
+        font-size: 1.1em;
+    }
+@media (max-width: 768px) {
+.container {
+padding: 20px;
+}
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+    }
+</style>
+<header>
+    <h1>Mirësevini në faqen time</h1>
+    <p>
+        Rexhep Reka
+    </p>
+</header>
+
+<div class="container">
+
+    <div class="box">
+        <h2>Hyrja</h2>
+        <div class="form-group">
+            <label for="email">Emaili juaj:</label>
+            <input type="email" id="email" placeholder="Shkruani emailin tuaj">
+
+            <label for="password">Passwordi juaj:</label>
+            <input type="password" id="password" placeholder="Shkruani fjalëkalimin">
+
+            <button type="submit">Dërgo</button>
+        </div>
+    </div>
+
+    <div class="box center-list">
+        <h2>Fjalë të rastësishme</h2>
+        <ul>
+            <li>Hënë</li>
+            <li>Frymëzim</li>
+            <li>Mal</li>
+            <li>Kreativitet</li>
+            <li>Liri</li>
+        </ul>
+    </div>
+
+    <div class="box box-3">
+        <h2>Përmbajtje kreative</h2>
+        <p>
+            Kjo faqe është krijuar për të demonstruar si mund të përdorim HTML dhe CSS për të ndërtuar një strukturë vizualisht tërheqëse dhe funksionale. Çdo seksion është personalizuar me borderë dhe padding unik.
+        </p>
+    </div>
+
+    <div class="box box-4">
+        <h2>Faleminderit për vizitën</h2>
+        <p>
+            Faleminderit që vizituat faqen time. Kjo është një demonstratë e thjeshtë, por me shumë përkushtim për dizajnin dhe detajet. Uroj të ju ketë pëlqyer!
+        </p>
+    </div>
+
+</div>

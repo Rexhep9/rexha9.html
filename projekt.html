@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <title>Faqja e Rexhep Rekës</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f5;
+            padding: 20px;
+        }
+
+        .mirsevini {
+            background: linear-gradient(135deg, #a8edea, #fed6e3);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+            border: 2px dashed #666;
+        }
+
+        .forma {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            max-width: 450px;
+            margin: 0 auto 40px auto;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            border-left: 6px solid #4CAF50;
+        }
+
+        .forma h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .forma label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .forma input[type="text"],
+        .forma input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .forma button {
+            background-color: green;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            margin-top: 20px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .forma button:hover {
+            background-color: darkgreen;
+        }
+
+        .info-sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .info {
+            padding: 20px;
+            border-radius: 15px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .info:nth-child(1) {
+            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+            border: 3px solid #5b9bd5;
+        }
+
+        .info:nth-child(2) {
+            background: linear-gradient(135deg, #f6d365, #fda085);
+            border: 3px dashed #f39c12;
+        }
+
+        .info:nth-child(3) {
+            background: linear-gradient(135deg, #c3cfe2, #c3cfe2);
+            border: 3px dotted #6c7ae0;
+        }
+
+        .info:nth-child(4) {
+            background: linear-gradient(135deg, #d4fc79, #96e6a1);
+            border: 4px double #27ae60;
+        }
+
+        .info h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="mirsevini">
+        <h1>Mirësevini në faqen time - Rexhep Reka</h1>
+    </div>
+
+    <div class="forma">
+        <h2>Përfundo Formën</h2>
+        <form>
+            <label for="emri">Emri dhe Mbiemri:</label>
+            <input type="text" id="emri" name="emri" required>
+
+            <label for="emaili">Emaili Juaj:</label>
+            <input type="email" id="emaili" name="emaili" required>
+
+            <button type="submit">Dërgo</button>
+        </form>
+    </div>
+
+    <div class="info-sections">
+        <div class="info">
+            <h3>Rreth Meje</h3>
+            <p>Jam Rexhep Reka, një pasionant për teknologjinë dhe zhvillimin e faqeve web. Kjo faqe është një demonstrim i ideve kreative.</p>
+        </div>
+        <div class="info">
+            <h3>Projektet e Mia</h3>
+            <p>Kam punuar në projekte të ndryshme për web dizajn, aplikacione të thjeshta dhe automatizim me JavaScript & Python.</p>
+        </div>
+        <div class="info">
+            <h3>Kontakt</h3>
+            <p>Mund të më kontaktoni përmes emailit ose rrjeteve sociale për bashkëpunime dhe ide të reja teknologjike.</p>
+        </div>
+        <div class="info">
+            <h3>Hobi</h3>
+            <p>Leximi, programimi, shëtitjet në natyrë dhe ndërtimi i projekteve të reja janë disa nga hobet e mia të preferuara.</p>
+        </div>
+    </div>
+
+</body>
+</html>
